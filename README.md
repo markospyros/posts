@@ -1,3 +1,3 @@
 # Posts-app
 
-Link to the Post-app exp://exp.host/@markulinho/posts?release-channel=default
+Link to the Post-app https://expo.dev/@markulinho/posts
