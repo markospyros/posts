@@ -4,12 +4,14 @@ public class Posts {
     private String title;
     private String description;
     String date = DateClass.setDate();
+    long millis = System.currentTimeMillis();
     String id = ID.createID();
 
-    public Posts(String title, String description, String date, String id){
+    public Posts(String title, String description, String date, String id, long millis){
         this.title = title;
         this.description = description;
         this.date = date;
+        this.millis = millis;
         this.id = id;
     }
 
@@ -37,6 +39,14 @@ public class Posts {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public long getMillis() {
+        return millis;
+    }
+
+    public void setMillis(long millis) {
+        this.millis = millis;
     }
 
     public String getId() {
